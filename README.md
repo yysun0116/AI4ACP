@@ -3,15 +3,27 @@ AI4ACP is a sequence-based anticancer peptides (ACPs) predictor based on the com
 
 AI4ACP (web-server) is freely accessible at <https://axp.iis.sinica.edu.tw/AI4ACP/>
 
-## 1. Quick demo of AI4ACP model
+### 1. Quick demo of AI4ACP model
 For qick demo of our model, run the command below:
-'''bash
+
+``` bash
 bash AI4ACP/test/example.sh
-'''
-  The input file of this demo is a FASTA file (example_seq.fasta) with 10 peptide sequences.
-  The output file of this demo is a CSV file (test/example_output.csv), which is composed of the sequence identities, the prediction scores, and the prediction results.
+```
+  *The input file of this demo is a FASTA file (`__example_seq.fasta__`) with 10 peptide sequences.
+  
+  *The output file of this demo is a CSV file (`__test/example_output.csv__`), which is composed of the sequence identities, the prediction scores, and the prediction results.
   ![image](https://user-images.githubusercontent.com/68101604/133355366-4e12b041-30b2-499e-822a-05987f9c7eee.png)
   
 
-## 2. Common usage of AI4ACP
-Please 
+### 2. Common usage of AI4ACP
+  1. Make sure your working directory access to `__code/AI4ACP_predictor.py__`
+  2. excute command like the example
+  ``` bash
+  python AI4ACP_predictor.py -f [input.fasta] -o [output.csv]
+  ```
+  > -f: input peptides in FASTA format
+  > -o: output results in CSV
+
+## AI4ACP deep neural network model architecture
+The figure below shows the model architechure of AI4ACP. After PC6 encoding, petide sequences would pass through three convolution blocks, which are composed of convolution layers, batch normalization, max pooling, and dropout layers, and two dense layers.
+![Figure5_model arch](https://user-images.githubusercontent.com/68101604/133357566-1a2d9874-6b9a-4f27-88b1-f01df278d0f2.jpg)
