@@ -9,14 +9,14 @@ For qick demo of our model, run the command below:
 ``` bash
 bash AI4ACP/test/example.sh
 ```
-  *The input file of this demo is a FASTA file (`__example_seq.fasta__`) with 10 peptide sequences.
+  *The input file of this demo is a FASTA file (__`example_seq.fasta`__) with 10 peptide sequences.
   
-  *The output file of this demo is a CSV file (`__test/example_output.csv__`), which is composed of the sequence identities, the prediction scores, and the prediction results.
-  ![image](https://user-images.githubusercontent.com/68101604/133355366-4e12b041-30b2-499e-822a-05987f9c7eee.png)
+  *The output file of this demo is a CSV file (__`test/example_output.csv`__), which is composed of the sequence identities, the prediction scores, and the prediction results.
+  ![image](img src = "https://user-images.githubusercontent.com/68101604/133355366-4e12b041-30b2-499e-822a-05987f9c7eee.png" width = "50%" height = "50%")
   
 
 ### 2. Common usage of AI4ACP
-  1. Make sure your working directory access to `__code/AI4ACP_predictor.py__`
+  1. Make sure your working directory access to __`code/AI4ACP_predictor.py`__
   2. excute command like the example
   ``` bash
   python AI4ACP_predictor.py -f [input.fasta] -o [output.csv]
