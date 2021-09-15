@@ -12,7 +12,7 @@ bash AI4ACP/test/example.sh
   *The input file of this demo is a FASTA file (__`example_seq.fasta`__) with 10 peptide sequences.
   
   *The output file of this demo is a CSV file (__`test/example_output.csv`__), which is composed of the sequence identities, the prediction scores, and the prediction results.
-  ![image](img src = "https://user-images.githubusercontent.com/68101604/133355366-4e12b041-30b2-499e-822a-05987f9c7eee.png" width = "50%" height = "50%")
+  ![image](<img src = "https://user-images.githubusercontent.com/68101604/133355366-4e12b041-30b2-499e-822a-05987f9c7eee.png" width = "50%" height = "50%"/>)
   
 
 ### 2. Common usage of AI4ACP
