@@ -22,7 +22,8 @@ bash AI4ACP/test/example.sh
   ``` bash
   python AI4ACP_predictor.py -f [input.fasta] -o [output.csv]
   ```
-  > -f: input peptides in FASTA format..
+  > -f: input peptides in FASTA format
+ 
   > -o: output results in CSV
 
 ## AI4ACP deep neural network model architecture
