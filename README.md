@@ -9,9 +9,9 @@ For qick demo of our model, run the command below:
 ``` bash
 bash AI4ACP/test/example.sh
 ```
-  *The input file of this demo is a FASTA file (__`example_seq.fasta`__) with 10 peptide sequences.
+  * The input file of this demo is a FASTA file (__`example_seq.fasta`__) with 10 peptide sequences.
   
-  *The output file of this demo is a CSV file (__`test/example_output.csv`__), which is composed of the sequence identities, the prediction scores, and the prediction results.
+  * The output file of this demo is a CSV file (__`test/example_output.csv`__), which is composed of the sequence identities, the prediction scores, and the prediction results.
   ![image](https://user-images.githubusercontent.com/68101604/133358145-81aab6b1-de06-4675-acd9-68736eb35aa2.png)
 
   
