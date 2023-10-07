@@ -3,6 +3,14 @@ AI4ACP is a sequence-based anticancer peptides (ACPs) predictor based on the com
 
 AI4ACP (web-server) is freely accessible at <https://axp.iis.sinica.edu.tw/AI4ACP/>
 
+### Requirements
+```
+python==3.6
+numpy==1.18.0
+pandas==1.4.1
+tensorflow==2.3.0
+```
+
 ### 1. Quick demo of AI4ACP model
 For qick demo of our model, run the command below:
 
